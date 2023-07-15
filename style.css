@@ -1,0 +1,119 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+/* right side navigation bar */
+
+
+.right_side_nav_wraper{
+    background-color: rgb(17, 66, 131);
+}
+
+
+.right_side_nav_wraper li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+
+.right_side_nav_wraper ul{
+    margin-top:20px; 
+}
+
+
+
+.right_side_nav_wraper h6{
+    margin-top: 15px;
+} 
+
+
+.right_side_nav_wraper .side_nav_img {
+    width: 78px;
+    height: 88px;
+    border-radius: 63%;
+    position: relative;
+    top: 10px;
+}
+
+ .right_side_nav_wraper .krishan{
+    letter-spacing: 2px;
+    font-family: 'Caveat', cursive;
+}
+
+/* right side navigation bar */
+
+
+
+
+
+/* header section */
+
+.portfolio{
+    width: 150px;
+  
+}
+.header_wraper::-webkit-scrollbar{
+    display:none;
+}
+.header_wraper{
+ 
+    height: 100vh;
+    background-attachment: scroll;
+  background-image: url(https://img.freepik.com/premium-photo/top-view-office-desk-with-computer-pencil-glasses-notebook-paper-coffee-cup_35674-153.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+    overflow:scroll;
+}
+
+.bg-body-tertiary{
+    
+border-radius: 50px;
+}
+
+.button button{
+ box-shadow: 0 0 5px rgb(17, 66, 131),0 0 25px rgb(17, 66, 131);
+ border:0;
+ margin-right: 15px; 
+ letter-spacing: 2px;
+}
+.logout:hover{
+background-color: rgb(255, 127, 127);
+color: black;
+}
+.login:hover{
+    background-color: rgb(31, 215, 83);
+    color: black;
+    }
+
+
+
+.button button:hover{
+    box-shadow: 0 0 25px rgb(17, 66, 131),0 0 25px rgb(17, 66, 131), 0 0 50px rgb(17, 66, 131), 0 0 100px rgb(17, 66, 131), 0 0 200px rgb(17, 66, 131);
+   padding: 8px 15px 8px 15px;
+}
+
+/* header section */
+
+
+@media only screen and (min-width:900px){
+.navbar_hide{
+    display: none;
+}
+
+}
+
+@media only screen and (max-width:990px){
+   
+}
+    
