@@ -38,11 +38,12 @@
 
 
 .right_side_nav_wraper .side_nav_img {
-    width: 78px;
-    height: 88px;
+    width: 57px;
+    height: 57px;
     border-radius: 63%;
     position: relative;
     top: 10px;
+    border: 2px solid rgb(254, 254, 255);
 }
 
  .right_side_nav_wraper .krishan{
