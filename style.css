@@ -92,6 +92,10 @@
     overflow:scroll;
 }
 
+.fixed_nav{
+    position:fixed;
+}
+
 .bg-body-tertiary{
     
 border-radius: 50px;
@@ -155,9 +159,57 @@ border:1px solid rgb(237, 113, 113);
     width: 20px;
 }
 
-
-
 /* header section */
+
+
+
+
+
+
+
+/* second section start from here */
+
+.second_section p{
+    line-height: 27px;
+}
+
+
+.second_section button a{
+    text-decoration: none;
+    color: black;
+   
+}
+.second_section button a:hover{
+    color: black;
+}
+.second_section button{
+    border: 1px solid rgb(46, 123, 255);
+   
+}
+
+.second_section button:hover{
+    background-color: #067ab1;
+   
+}
+
+.color{
+    color: blue;
+    font-weight: 900;
+}
+
+
+
+.image_size {
+    width: 360px;
+    border-bottom-left-radius: 114px;
+    border-top-right-radius: 80px;
+    border: 2px solid #067ab1;
+    box-shadow: 3px 1px 20px 14px #7fadf3;
+}
+
+
+
+
 
 
 @media only screen and (min-width:900px){
