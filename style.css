@@ -98,25 +98,34 @@ border-radius: 50px;
 
 .button button{
  
- border:1px solid rgb(46, 123, 255);
+ border:1px solid rgb(252, 25, 89);
  margin-right: 15px; 
  letter-spacing: 2px;
  background-color: none;
  border-radius: 10px;
+ color: red;
 }
-.logout:hover{
-background-color: rgb(255, 127, 127);
+
+
+.button button:hover {
+    /* box-shadow: 0 0 25px rgba(205, 103, 103, 0.956), 0 0 25px rgb(255 75 75 / 59%), 0 0 50px #dc3545a6, 0 0 100px #dc3545b5, 0 0 200px #dc3545ad; */
+    padding: 8px 15px 8px 15px;
+    border:2px solid rgb(88, 116, 255);
+    background-color: rgb(223, 114, 114);
+    color: aliceblue;
+}
+
+/* .logout:hover{
+background-color: rgb(208, 71, 71);
 color: rgb(255, 255, 255);
 box-shadow: 0 0 5px rgb(17, 66, 131),0 0 25px rgb(17, 66, 131);
+border:1px solid rgb(237, 113, 113);
 }
 
+ */
 
 
 
-.button button:hover{
-    box-shadow: 0 0 25px rgb(17, 66, 131),0 0 25px rgb(17, 66, 131), 0 0 50px rgb(17, 66, 131), 0 0 100px rgb(17, 66, 131), 0 0 200px rgb(17, 66, 131);
-   padding: 8px 15px 8px 15px;
-}
 
 .header_text , span{
     font-family: 'Cinzel', serif;
