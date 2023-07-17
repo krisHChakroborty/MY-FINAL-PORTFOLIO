@@ -17,13 +17,14 @@
     border-radius: 16px;
     /* box-sizing: border-box; */
     box-shadow: 2px 2px 16px 9px black;
+    height: 100vh;
 }
 
 
 .right_side_nav_wraper li a {
     color: aliceblue;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 11px;
     letter-spacing: 1px;
 }
 
@@ -110,7 +111,7 @@ border-radius: 50px;
 .button button:hover {
     /* box-shadow: 0 0 25px rgba(205, 103, 103, 0.956), 0 0 25px rgb(255 75 75 / 59%), 0 0 50px #dc3545a6, 0 0 100px #dc3545b5, 0 0 200px #dc3545ad; */
     padding: 8px 15px 8px 15px;
-    border:2px solid rgb(88, 116, 255);
+    /* border:1px solid rgb(88, 116, 255); */
     background-color: rgb(223, 114, 114);
     color: aliceblue;
 }
