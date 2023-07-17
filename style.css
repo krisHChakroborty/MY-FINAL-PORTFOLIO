@@ -12,9 +12,11 @@
 /* right side navigation bar */
 
 
-.right_side_nav_wraper{
+.right_side_nav_wraper {
     background-color: rgb(4, 104, 171);
-    border-radius: 30px;
+    border-radius: 16px;
+    /* box-sizing: border-box; */
+    box-shadow: 2px 2px 16px 9px black;
 }
 
 
@@ -56,6 +58,16 @@
 /* right side navigation bar */
 
 
+
+
+.toggle_navbar li a{
+    
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 10px;
+    background-color: rgb(47, 116, 255);
+    color: antiquewhite;
+
+}
 
 
 
