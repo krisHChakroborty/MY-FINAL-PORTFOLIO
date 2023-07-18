@@ -85,7 +85,7 @@
  
     height: 100vh;
     background-attachment: scroll;
-  background-image: rgba(0,0,0,0.5),url(https://img.freepik.com/premium-photo/top-view-office-desk-with-computer-pencil-glasses-notebook-paper-coffee-cup_35674-153.jpg);
+  background:url(https://img.freepik.com/premium-photo/top-view-office-desk-with-computer-pencil-glasses-notebook-paper-coffee-cup_35674-153.jpg);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,6 +170,11 @@ border:1px solid rgb(237, 113, 113);
 
 /* second section start from here */
 
+.second_section{
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
 .second_section p{
     line-height: 27px;
 }
@@ -205,12 +210,28 @@ border:1px solid rgb(237, 113, 113);
     border-bottom-left-radius: 114px;
     border-top-right-radius: 80px;
     border: 2px solid #067ab1;
-    box-shadow: 3px 1px 20px 14px #7fadf3;
+    box-shadow: -15px 3px 23px 12px #2e2e2e;
 }
 
 
+/* third section */
 
 
+.third_section_wraper{
+    background-color: #ffffff;
+    border-radius: 100px;
+    
+}
+.carousel_img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img_center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 
 @media only screen and (min-width:900px){
