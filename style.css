@@ -98,6 +98,8 @@
     
 }
 
+
+
 .fixed_nav{
     position:fixed;
 }
@@ -230,6 +232,14 @@ border:1px solid rgb(237, 113, 113);
     background-color: #ffffff;
     border-radius: 100px;
     
+}
+p{
+    word-spacing: 5px;
+    color: #4f4d4d;
+}
+h4{
+    word-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .carousel_img{
