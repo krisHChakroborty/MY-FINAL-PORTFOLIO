@@ -8,8 +8,19 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-
-
+body{
+    background:url(https://img.freepik.com/premium-photo/top-view-office-desk-with-computer-pencil-glasses-notebook-paper-coffee-cup_35674-153.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+.fixed {
+    position: fixed;
+    width: 143px;
+    right: 50px;
+    bottom: -30px;
+}
 
 
 /* right side navigation bar */
@@ -85,15 +96,13 @@
 .header_wraper::-webkit-scrollbar{
     display:none;
 }
+
+
 .header_wraper{
  
     height: 100vh;
     background-attachment: scroll;
-  background:url(https://img.freepik.com/premium-photo/top-view-office-desk-with-computer-pencil-glasses-notebook-paper-coffee-cup_35674-153.jpg);
-  background-blend-mode: darken;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center left;
+ 
     overflow:scroll;
     
 }
@@ -182,8 +191,16 @@ border:1px solid rgb(237, 113, 113);
 /* second section start from here */
 
 .second_section{
-    background-color: #ffffff;
-    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 100px; */
+    border-bottom-left-radius: 118px;
+    border-top-right-radius: 183px;
+   
+}
+.second_section_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second_section p{
@@ -216,12 +233,11 @@ border:1px solid rgb(237, 113, 113);
 
 
 
-.image_size {
+.img-thumbnail {
     width: 360px;
     border-bottom-left-radius: 114px;
     border-top-right-radius: 80px;
-    border: 2px solid #067ab1;
-    box-shadow: -15px 3px 23px 12px #2e2e2e;
+   
 }
 
 
