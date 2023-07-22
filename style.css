@@ -283,10 +283,28 @@ h4{
     box-shadow: -10px -10px 9px -3px #787777;
     /* border: 2px solid black; */
     padding: 30px;
-    margin-left: 50px;
+    margin-left: 30px;
     word-spacing: 3px;
-    background: linear-gradient(to left ,#c9c9ed,white,#a5bfdd);
+   
     border-radius: 3px;
+}
+.inner_box1{
+    background: linear-gradient(to left ,#e5a771,white,#ffffff);
+}
+.inner_box2{
+    background: linear-gradient(to left ,#7676ff,white,#ffffff); 
+}
+.inner_box3{
+    background: linear-gradient(to left ,#626274,white,#ffffff); 
+}
+.inner_box4{
+    background: linear-gradient(to left ,#c3a740,white,#ffffff); 
+}
+.inner_box5{
+    background: linear-gradient(to left ,#c9c9ed,white,#ffffff);
+}
+.inner_box6{
+    background: linear-gradient(to left ,#c97db5,white,#ffffff); 
 }
 
 
