@@ -159,6 +159,9 @@ border:1px solid rgb(237, 113, 113);
     color: rgb(0, 0, 14);
     margin: auto;
 }
+.cv_btn a{
+    text-decoration: none;
+}
 
 .cv_btn {
     border: 1px solid rgb(25, 146, 252);
@@ -168,6 +171,7 @@ border:1px solid rgb(237, 113, 113);
     text-decoration: none;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
 }
 .cv_btn:hover{
     background-color: rgb(46, 123, 255);
@@ -267,6 +271,22 @@ h4{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+/* forth section */
+
+.fourth_sec_wraper{
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+.inner_box {
+    box-shadow: -10px -10px 9px -3px #787777;
+    /* border: 2px solid black; */
+    padding: 30px;
+    margin-left: 50px;
+    word-spacing: 3px;
+    background: linear-gradient(to left ,#c9c9ed,white,#a5bfdd);
+    border-radius: 3px;
 }
 
 
