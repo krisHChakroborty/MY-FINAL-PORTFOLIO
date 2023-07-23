@@ -120,31 +120,18 @@ border-radius: 50px;
 
 .button button{
  
- border:1px solid rgb(252, 25, 89);
+
  margin-right: 15px; 
  letter-spacing: 2px;
  background-color: none;
  border-radius: 10px;
- color: red;
+ padding: 8px 15px 8px 15px;
+ background:transparent;
+ color: rgb(255, 24, 24);
+ border: 1px solid red;
 }
 
 
-.button button:hover {
-    /* box-shadow: 0 0 25px rgba(205, 103, 103, 0.956), 0 0 25px rgb(255 75 75 / 59%), 0 0 50px #dc3545a6, 0 0 100px #dc3545b5, 0 0 200px #dc3545ad; */
-    padding: 8px 15px 8px 15px;
-    /* border:1px solid rgb(88, 116, 255); */
-    background-color: rgb(223, 114, 114);
-    color: aliceblue;
-}
-
-/* .logout:hover{
-background-color: rgb(208, 71, 71);
-color: rgb(255, 255, 255);
-box-shadow: 0 0 5px rgb(17, 66, 131),0 0 25px rgb(17, 66, 131);
-border:1px solid rgb(237, 113, 113);
-}
-
- */
 
 
 
@@ -161,28 +148,51 @@ border:1px solid rgb(237, 113, 113);
 }
 .cv_btn a{
     text-decoration: none;
-}
-
-.cv_btn {
-    border: 1px solid rgb(25, 146, 252);
-    padding-left: 23px;
-    padding-right: 23px;
-    border-radius: 10px;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-decoration: none;
-}
-.cv_btn:hover{
-    background-color: rgb(46, 123, 255);
-    color: aliceblue;
-    box-shadow: 0 0 5px rgb(17, 66, 131),0 0 25px rgb(17, 66, 131);
-
-    
+    color: rgb(41, 33, 255);
+    letter-spacing: 2px;
 }
 .cv_btn a:hover{
     color: #ffffff;
 }
+.cv_btn:hover{
+   background-color: #067ab1;
+   color: rgb(0, 0, 0);
+}
+
+.cv_btn {
+    border: 1px solid rgb(25, 146, 252);
+    padding-left: 76px;
+    padding-right: 76px;
+    border-radius: 10px;
+    text-decoration: none;
+   
+    background-color:transparent;
+   
+    color: #000000;
+}
+.cv_btn2{
+  
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 5px;
+   
+    background-color:transparent;
+   
+    
+}
+.cv_btn2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.cv_btn2 a:hover{
+    color: #ffffff;
+}
+
+
+
 
 /* header section */
 
@@ -194,17 +204,13 @@ border:1px solid rgb(237, 113, 113);
 
 /* second section start from here */
 
-.second_section{
-    background-color: rgb(255, 255, 255);
-    /* border-radius: 100px; */
-    border-bottom-left-radius: 118px;
-    border-top-right-radius: 183px;
-   
-}
+
 .second_section_middle{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
+    border-radius: 100px;
 }
 
 .second_section p{
@@ -238,9 +244,8 @@ border:1px solid rgb(237, 113, 113);
 
 
 .img-thumbnail {
-    width: 360px;
-    border-bottom-left-radius: 114px;
-    border-top-right-radius: 80px;
+    width: 273px;
+   
    
 }
 
