@@ -280,31 +280,31 @@ h4{
     border-radius: 100px;
 }
 .inner_box {
-    box-shadow: -10px -10px 9px -3px #787777;
+    box-shadow: rgb(120, 119, 119) -15px -8px 9px -6px;
     /* border: 2px solid black; */
     padding: 30px;
     margin-left: 30px;
     word-spacing: 3px;
    
-    border-radius: 3px;
+    border-radius: 43px;
 }
 .inner_box1{
-    background: linear-gradient(to left ,#e5a771,white,#ffffff);
+    background: linear-gradient(to left ,#ffffff,white,#f7d8c7);
 }
 .inner_box2{
-    background: linear-gradient(to left ,#7676ff,white,#ffffff); 
+    background: linear-gradient(to left ,#ffffff,white,#d1ddff);
 }
 .inner_box3{
-    background: linear-gradient(to left ,#626274,white,#ffffff); 
+    background: linear-gradient(to left ,#ffffff,white,#d3d1f7);
 }
 .inner_box4{
-    background: linear-gradient(to left ,#c3a740,white,#ffffff); 
+    background: linear-gradient(to left ,#ffffff,white,#ffed9b);
 }
 .inner_box5{
-    background: linear-gradient(to left ,#c9c9ed,white,#ffffff);
+    background: linear-gradient(to left ,#ffffff,white,#ccb8ff);
 }
 .inner_box6{
-    background: linear-gradient(to left ,#c97db5,white,#ffffff); 
+    background: linear-gradient(to left ,#ffffff,white,#f7b8ff);
 }
 
 
