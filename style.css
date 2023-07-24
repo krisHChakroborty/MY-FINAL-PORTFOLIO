@@ -148,7 +148,7 @@ border-radius: 50px;
 }
 .cv_btn a{
     text-decoration: none;
-    color: rgb(41, 33, 255);
+    color: rgb(4 82 183);
     letter-spacing: 2px;
 }
 .cv_btn a:hover{
@@ -156,11 +156,11 @@ border-radius: 50px;
 }
 .cv_btn:hover{
    background-color: #067ab1;
-   color: rgb(0, 0, 0);
+   color: rgb(4 82 183);
 }
 
 .cv_btn {
-    border: 1px solid rgb(25, 146, 252);
+    border: 1px solid rgb(4 82 183);
     padding-left: 76px;
     padding-right: 76px;
     border-radius: 10px;
@@ -244,7 +244,8 @@ border-radius: 50px;
 
 
 .img-thumbnail {
-    width: 273px;
+    width: 370px;
+    border-radius: 72px;
    
    
 }
@@ -290,7 +291,7 @@ h4{
     padding: 30px;
     margin-left: 30px;
     word-spacing: 3px;
-   
+    background: linear-gradient(to left , #fafaff, white,#becae5);
     border-radius: 43px;
 }
 .inner_box1{
@@ -310,6 +311,14 @@ h4{
 }
 .inner_box6{
     background: linear-gradient(to left ,#ffffff,white,#f7b8ff);
+}
+
+
+
+
+.contact_section_wraper{
+    background-color: #ffffff;
+    border-radius: 100px;
 }
 
 
