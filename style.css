@@ -148,7 +148,7 @@ border-radius: 50px;
 }
 .cv_btn a{
     text-decoration: none;
-    color: rgb(4 82 183);
+    color: rgb(0, 0, 0);
     letter-spacing: 2px;
 }
 .cv_btn a:hover{
@@ -156,19 +156,17 @@ border-radius: 50px;
 }
 .cv_btn:hover{
    background-color: #067ab1;
-   color: rgb(4 82 183);
+   color: rgb(244, 249, 255);
 }
 
 .cv_btn {
-    border: 1px solid rgb(4 82 183);
+    border: 1px solid rgb(37 54 255);
     padding-left: 76px;
     padding-right: 76px;
     border-radius: 10px;
     text-decoration: none;
-   
-    background-color:transparent;
-   
-    color: #000000;
+    background-color: transparent;
+    color: #ffffff;
 }
 .cv_btn2{
   
@@ -324,6 +322,12 @@ h4{
     border-radius: 100px;
 }
 
+.footer_wraper{
+  background-color: #ffffff; 
+  background: linear-gradient(to left ,#ffffff,rgb(188, 176, 255),#8061fc); 
+  border-radius: 20px;
+}
+
 @media only screen and (min-width:900px){
 .navbar_hide{
     display: none;
@@ -335,6 +339,8 @@ h4{
 @media only screen and (max-width:890px){
     .header_wraper{
         background-image: url(https://img.freepik.com/premium-photo/blue-smoke-white-background_55716-2576.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .header_text_margin_top{
         position: relative;
