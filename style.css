@@ -27,7 +27,7 @@ body{
 
 
 .right_side_nav_wraper {
-    background-color: rgb(4, 104, 171);
+    background-color: rgb(20 51 203);
     border-radius: 16px;
     /* box-sizing: border-box; */
     box-shadow: 2px 2px 16px 9px black;
@@ -70,6 +70,17 @@ body{
     font-family: 'Caveat', cursive;
 }
 
+#side_li_wraper{
+background-color: rgb(17, 43, 177);
+}
+/* #home_wraper{
+    background-color: #067ab1;
+} */
+.copyright{
+    font-size: 10px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
 
 /* right side navigation bar */
 
@@ -330,10 +341,15 @@ h4{
 
 .corner{
     position: fixed;
-    left: 89%;
-    top: 81%;
-    
+    left: 82%;
+    top: 91%;
+    background-color: white;
+    width: 43px;
+    padding: 10px;
+    border-radius: 100%;
 }
+    
+
 
 @media only screen and (min-width:900px){
 .navbar_hide{
@@ -357,5 +373,6 @@ h4{
     .right_side_nav_wraper{
         display: none;
     }
+   
 }
     
