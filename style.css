@@ -343,10 +343,40 @@ h4{
     position: fixed;
     left: 82%;
     top: 91%;
-    background-color: white;
+    background:rgba(0,0,0,0.7);
+    background-blend-mode: darken;
     width: 43px;
     padding: 10px;
     border-radius: 100%;
+}
+
+.whatsapp{
+    position: fixed;
+    left: 82%;
+    top: 80%;
+    background-color: rgb(33, 159, 11);
+    /* width: 43px; */
+    padding: 7px;
+    border-radius: 100%;
+}
+.chat{
+    
+    position: fixed;
+    left: 76%;
+    top: 81%;
+    background-color: rgb(69 70 69);
+    /* width: 43px; */
+    padding-right: 25px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    /* border-radius: 100%; */
+    color: white;
+    font-size: 9px;
+    border-radius: 14px;
+    /* padding: 8px; */
+    word-spacing: 4px;
+    letter-spacing: 2px;
 }
     
 
@@ -371,6 +401,9 @@ h4{
     }
 
     .right_side_nav_wraper{
+        display: none;
+    }
+    .chat{
         display: none;
     }
    
