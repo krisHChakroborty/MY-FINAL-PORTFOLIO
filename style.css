@@ -166,7 +166,7 @@ border-radius: 50px;
     color: #ffffff;
 }
 .cv_btn:hover{
-   background-color: #067ab1;
+   background-color: rgb(37 54 255);
    color: rgb(244, 249, 255);
 }
 
@@ -335,8 +335,8 @@ h4{
 
 .footer_wraper{
   background-color: #ffffff; 
-  background: linear-gradient(to left ,#ffffff,rgb(188, 176, 255),#8061fc); 
-  border-radius: 20px;
+  background: linear-gradient(to left ,#ffffff,rgb(188, 176, 255),#8ea2bb); 
+  border-radius: 11px;
 }
 
 .corner{
