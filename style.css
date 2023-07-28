@@ -10,10 +10,10 @@
 
 body{
     background:url(https://img.freepik.com/premium-photo/top-view-office-desk-with-computer-pencil-glasses-notebook-paper-coffee-cup_35674-153.jpg);
-    background-blend-mode: darken;
+  
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center left;
+ 
 }
 .fixed {
     position: fixed;
@@ -410,3 +410,8 @@ h4{
    
 }
     
+
+
+
+
+
