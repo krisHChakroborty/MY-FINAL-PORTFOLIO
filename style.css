@@ -362,6 +362,7 @@ h4{
 .chat{
     
     position: fixed;
+    text-decoration: none;
     left: 76%;
     top: 81%;
     background-color: rgb(69 70 69);
